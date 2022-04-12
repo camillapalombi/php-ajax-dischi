@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
             /*HEADER*/
@@ -24,22 +25,30 @@ main {
     background-color: #1e2d3b;
 }
 .container-all-discs {
-    width: 70%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .container-max-single-box {
-    width: 210px;
-    height: 300px;
+    width: 200px;
+    height: 380px;
     background-color: #2e3a46;
     padding-bottom: 15px;
     padding-top: 30px;
     text-align: center;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    margin: 10px; 
+}
+.container-min-single-box {
+    width: 170px;
+    color: rgb(170, 170, 170);
+    line-height: 1.8em;
 }
 
 .img-poster {
@@ -47,6 +56,7 @@ main {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 19px;
     color: white;
+    text-transform: uppercase;
 }
