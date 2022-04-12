@@ -1,9 +1,5 @@
 <header>
 
-    <div class="container-header">
-
-        <img src="" alt="">
-        
-    </div>
+    <img class="img-fluid" src="./img/spotify-logo.png" alt="Spotify green Logo">
 
 </header>
