@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+            /*HEADER*/
 header {
     height: 4rem;
     background-color: #2e3a46;
@@ -14,4 +15,38 @@ header {
 header img {
     width: 40px;
     margin-left: 20px;
+}
+
+
+            /*MAIN*/
+main {
+    min-height: calc(100vh - 4rem);
+    background-color: #1e2d3b;
+}
+.container-all-discs {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-max-single-box {
+    width: 210px;
+    height: 300px;
+    background-color: #2e3a46;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.img-poster {
+    width: 170px;
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
 }
