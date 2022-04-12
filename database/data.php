@@ -1,6 +1,6 @@
 <?php
 
-$array_dischi = [
+$array_discs = [
         [
             'title' => "New Jersey",
             'poster' => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",

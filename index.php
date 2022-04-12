@@ -1,3 +1,7 @@
+<?php
+    include_once './database/data.php';
+?>
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
